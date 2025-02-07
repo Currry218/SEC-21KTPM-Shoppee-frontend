@@ -39,7 +39,7 @@ export const Categories = () => {
         : categories.slice(0, 20);
 
     return (
-        <div className="relative mx-70 my-5 bg-white">
+        <div className="relative bg-white">
             <p className="text-base p-3">Danh mục</p>
             <div className="relative flex items-center">
                 {showExtended && (

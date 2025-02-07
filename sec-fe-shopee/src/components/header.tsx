@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaBell, FaGlobe, FaShoppingCart, FaSearch } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaBell, FaGlobe, FaShoppingCart, FaSearch, FaQuestionCircle, FaChevronDown } from 'react-icons/fa';
 import { useState } from 'react';
 import logoShopee from "../assets/logo_shopee.png";
 import avatarDefault from "../assets/avatar_default.png";
@@ -15,7 +15,7 @@ export const Header = () => {
 
     return (
         <div className="flex flex-col bg-orange-500 text-white">
-            <div className="px-70 py-3 flex justify-between items-center">
+            <div className="px-30 py-3 flex justify-between items-center">
                 <div className="flex items-center gap-4">
                     <div>Kênh người bán</div>
                     <div>Tải ứng dụng</div>
@@ -40,7 +40,7 @@ export const Header = () => {
                     </div>
 
                     <div className="flex items-center gap-1">
-                        <FaGlobe size={15} />
+                        <FaQuestionCircle size={15} />
                         <span>Hỗ trợ</span>
                     </div>
 
@@ -49,7 +49,9 @@ export const Header = () => {
                             className="flex items-center gap-1 cursor-pointer"
                             onClick={() => setIsLanguageOpen(!isLanguageOpen)}
                         >
+                            <FaGlobe size={15} />
                             <span>{language}</span>
+                            <FaChevronDown size={12} className={`transition-transform duration-300 ${isLanguageOpen ? "rotate-180" : ""}`} />
                         </div>
 
                         {isLanguageOpen && (
@@ -90,13 +92,13 @@ export const Header = () => {
                 </div>
             </div>
 
-            <div className="px-70 flex justify-between items-center">
+            <div className="px-30 flex justify-between items-center">
                 <div className="flex justify-center items-center cursor-pointer">
                     <img src={logoShopee} alt="Avatar" className="w-15 h-15 rounded-full pb-1" />
                     <span className="text-3xl">Shopee</span>
                 </div>
 
-                <div className="relative w-164 text-black">
+                <div className="relative w-[1024px] text-black">
                     <input
                         type="text"
                         placeholder="Tìm kiếm sản phẩm"

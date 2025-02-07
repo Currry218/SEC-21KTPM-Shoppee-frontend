@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom"
 
 import { LoginPage } from './page/login.tsx';
 import { HomePage } from './page/home.tsx';
+import { SearchProductPage } from './page/search_product.tsx';
 
 const router = createBrowserRouter(
   [
@@ -20,6 +21,10 @@ const router = createBrowserRouter(
     {
       path: "/home",
       element: <HomePage />,
+    },
+    {
+      path: "/search",
+      element: <SearchProductPage />,
     },
   ],
   {
