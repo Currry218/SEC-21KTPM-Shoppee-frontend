@@ -1,10 +1,16 @@
-import { Header } from "../components/common/header";
+import { Categories } from "../components/features/categories";
+import { CrossBar } from "../components/common/crossbar";
+import { ProductDisplay } from "../components/features/product_display";
+import { HomeLayout } from "../layout/home";
 
 export const HomePage = () => {
     return (
         <>
-            <Header></Header>
-            Home Page
+            <HomeLayout>
+                <Categories />
+                <CrossBar />
+                <ProductDisplay />
+            </HomeLayout>
         </>
     );
 }
