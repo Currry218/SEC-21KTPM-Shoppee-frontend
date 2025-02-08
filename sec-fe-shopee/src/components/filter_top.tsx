@@ -26,7 +26,7 @@ export const FilterTop = () => {
 
                     <div className="relative">
                         <div
-                            className="bg-white flex items-center gap-1 cursor-pointer border border-gray-300 py-2 px-3 w-40 justify-between"
+                            className="bg-white flex items-center gap-1 cursor-pointer border border-gray-300 py-2 px-3 w-50 justify-between"
                             onClick={() => setIsLanguageOpen(!isLanguageOpen)}
                         >
                             <span>{language}</span>
@@ -34,7 +34,7 @@ export const FilterTop = () => {
                         </div>
 
                         {isLanguageOpen && (
-                            <div className="absolute right-0 mt-2 w-auto bg-white text-black shadow-lg rounded-lg z-50">
+                            <div className="absolute right-0 mt-2 w-50 bg-white text-black shadow-lg rounded-lg z-50">
                                 <ul className="py-2">
                                     <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer whitespace-nowrap"
                                         onClick={() => handleLanguageChange("Giá: Thấp đến Cao")}>

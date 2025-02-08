@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom"
 import { LoginPage } from './page/login.tsx';
 import { HomePage } from './page/home.tsx';
 import { SearchProductPage } from './page/search_product.tsx';
+import { DetailProductPage } from './page/detail_product.tsx';
 
 const router = createBrowserRouter(
   [
@@ -26,6 +27,10 @@ const router = createBrowserRouter(
       path: "/search",
       element: <SearchProductPage />,
     },
+    {
+      path: "/detail-product",
+      element: <DetailProductPage />,
+    }
   ],
   {
     future: {
