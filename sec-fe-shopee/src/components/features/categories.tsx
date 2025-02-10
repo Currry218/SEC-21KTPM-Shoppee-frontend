@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import logoShopee from "../../assets/logo_shopee.png";
+import logoShopee from "../../assets/logo_shopee_1.png";
 
 const categories = [
     { id: 1, name: "Thời Trang Nam", image: logoShopee },

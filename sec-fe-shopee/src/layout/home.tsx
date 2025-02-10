@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Header } from "../components/header";
+import { HeaderProduct } from "../components/header_product";
 import { Footer } from "../components/footer";
 import '../App.css';
 
@@ -10,7 +10,7 @@ interface HomeLayoutProps {
 export const HomeLayout = ({ children }: HomeLayoutProps) => {
     return (
         <div className="flex flex-col min-h-screen">
-            <Header/>
+            <HeaderProduct/>
             <main className="flex-1 mx-30 my-5">{children}</main>
             <Footer/>
         </div>
