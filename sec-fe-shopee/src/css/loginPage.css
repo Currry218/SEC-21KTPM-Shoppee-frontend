@@ -1,0 +1,96 @@
+.link-button {
+  color:  #EE4D2D !important; 
+  text-decoration: none;
+}
+.normal-button {
+  background-color: #ee4d2d;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .09);
+  color: #fff;
+  height: 2.5rem;
+  min-width: 8.75rem;
+  cursor: pointer;
+}
+.normal-button:hover {
+  background-color: #ff7337 !important; 
+  color: white !important;
+}
+
+.help-button:hover {
+  text-decoration: underline;
+}
+
+/* Login Body Section */
+.login-body {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background Image */
+.login-image {
+  background-image: url("https://down-vn.img.susercontent.com/file/sg-11134004-7ra1u-m4zubtaoqlxz7e");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+
+}
+
+/* Login Card Styling */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gg-fb-button {
+    flex: 1;
+    margin: 5px;
+    padding-right: 8px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .26);
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .87);
+    font-size: .875rem;
+    height: 40px;
+    outline: none;
+    padding: 0 2px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.fb-logo {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  background-position: 5.556% 62.667%;
+  background-size: 325% 287.5%;
+  background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7ffa33c1e9518f30.png);
+
+}
+
+.gg-logo {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  background-position: 83.92857142857143% 5.154639175257732%;
+  background-size: 722.2222222222222% 638.8888888888889%;
+  background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7ffa33c1e9518f30.png);
+
+}
+
+.popup-help {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 10px 0px;
+  box-sizing: border-box;
+  height: 482px;
+  left: -420px;
+  padding: 30px 50px;
+  position: absolute;
+  width: 400px;
+}
