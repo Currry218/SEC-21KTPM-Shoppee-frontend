@@ -10,6 +10,7 @@ import { SearchProductPage } from './page/search_product.tsx';
 import { DetailProductPage } from './page/detail_product.tsx';
 import { CartPage } from './page/cart.tsx';
 
+import { UserPage } from './page/user.tsx';
 const router = createBrowserRouter(
   [
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter(
     {
       path: "/detail-product",
       element: <DetailProductPage />,
+    },
+    {
+      path: "/user",
+      element: <UserPage />,
     },
     {
       path: "/cart",
