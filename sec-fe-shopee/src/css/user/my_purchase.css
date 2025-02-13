@@ -1,0 +1,474 @@
+.ashFMQ {
+    background: #f5f5f5;
+    min-height: 740px
+}
+
+.QmO3Bu {
+    background: #fff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: flex;
+    margin-bottom: 12px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10
+}
+
+.mRVNLm {
+    border-color: #ee4d2d!important
+}
+
+.KI5har {
+    align-items: center;
+    background: #fff;
+    border-bottom: 2px solid rgba(0,0,0,.09);
+    color: rgba(0,0,0,.8);
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 19px;
+    overflow: hidden;
+    padding: 16px 3px;
+    text-align: center;
+    transition: color .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.KI5har:hover,.mRVNLm {
+    color: #ee4d2d
+}
+
+.Gv8cvd {
+    align-items: center;
+    background: #eaeaea;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    color: #212121;
+    display: flex;
+    margin: 12px 0;
+    padding: 12px 0
+}
+
+.Gv8cvd>svg {
+    margin: 0 15px;
+    stroke: #bbb
+}
+
+.toZ7En {
+    height: 600px
+}
+
+.gYJX_A,.toZ7En {
+    text-align: center;
+    width: 100%
+}
+
+.VJ0a8O {
+    align-items: center;
+    background: #fff;
+    border-radius: .125rem;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%
+}
+
+.Gv8cvd>input {
+    background-color: inherit;
+    border: 0;
+    flex: 1 1 0%;
+    font-size: 14px;
+    line-height: 16px;
+    outline: 0;
+    padding: 0;
+    word-break: break-all
+}
+
+input,input:active,input:focus {
+    outline: 0
+}
+
+.E_bH9K {
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/orderlist/5fafbb923393b712b964.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px
+}
+
+.JDtdsv {
+    color: rgba(0,0,0,.8);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 20px 0 0
+}
+
+.YL_VlX {
+    border-radius: .125rem;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    margin: 12px 0
+}
+
+.J632se:first-child {
+    padding-top: 24px
+}
+
+.J632se {
+    background: #fff;
+    padding: 12px 24px
+}
+
+.P2JMvg {
+    display: flex;
+    justify-content: space-between!important;
+    padding: 0 0 12px
+}
+
+.RBPP9y {
+    white-space: nowrap
+}
+
+.JsC6Oq,.Koi0Pw,.QbH_Bj,.RBPP9y {
+    align-items: center;
+    display: flex
+}
+
+.UDaMW3 {
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.B2SOGC,.Mr26O7,.UDaMW3 {
+    margin: 0 0 0 8px
+}
+
+.jgIyoX {
+    display: flex;
+    padding: 0 0 0 10px
+}
+
+.LY5oll,.jgIyoX,.lXbYsi {
+    align-items: center
+}
+
+.LY5oll {
+    border-right: 1px solid rgba(0,0,0,.12);
+    display: flex;
+    margin: 0 10px 0 0;
+    padding: 0 5px 0 0;
+    text-align: right
+}
+
+.lXbYsi {
+    display: inline-flex;
+    margin: 0
+}
+
+.O2yAdQ {
+    color: #26aa99;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    vertical-align: middle
+}
+
+.LY5oll .icon-free-shipping-line {
+    color: #00bfa5;
+    font-size: 1rem;
+    margin: 0 4px 1px 0;
+    vertical-align: middle;
+    stroke: #26aa99
+}
+
+LY5oll .shopee-drawer {
+    display: inline-flex;
+    margin: 0 0 0 6px;
+    vertical-align: middle
+}
+
+.shopee-drawer .icon-help {
+    stroke: #2dc258
+}
+
+.LY5oll .icon-help,.lXbYsi {
+    vertical-align: middle
+}
+
+.bv3eJE {
+    color: #ee4d2d;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    white-space: nowrap
+}
+
+.bdAfgU:first-child {
+    border: 0;
+    margin: 0
+}
+
+.bdAfgU {
+    border-top: 1px solid rgba(0,0,0,.09);
+    margin: 10px 0 0
+}
+
+.mZ1OWk {
+    align-items: center;
+    color: rgba(0,0,0,.87);
+    flex-wrap: nowrap;
+    padding: 12px 0 0
+}
+
+.dJaa92 {
+    align-items: flex-start;
+    flex: 1;
+    flex-wrap: nowrap;
+    padding: 0 12px 0 0
+}
+
+.dJaa92,.mZ1OWk {
+    display: flex;
+    word-wrap: break-word
+}
+
+.gQuHsZ {
+    background: #e1e1e1;
+    border: 1px solid #e1e1e1;
+    flex-shrink: 0;
+    height: 80px;
+    width: 80px
+}
+
+.nmdHRf {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 0;
+    padding: 0 0 0 12px;
+    word-wrap: break-word
+}
+
+.zWrp4w {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 5px;
+    max-height: 48px
+}
+
+.DWVWOJ,.jCAyGf {
+    vertical-align: middle
+}
+
+.j3I_Nh,.rsautk {
+    margin: 0 0 5px
+}
+
+.ylYzwa {
+    text-align: right
+}
+
+.YRp1mm {
+    margin-left: 12px
+}
+
+.q6Gzj5 {
+    color: #000;
+    margin: 0 4px 0 0;
+    opacity: .26;
+    overflow: hidden;
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    text-overflow: ellipsis
+}
+
+.nW_6Oi,.pkAvN3,.q6Gzj5 {
+    font-size: 14px;
+    line-height: 16px;
+    vertical-align: middle
+}
+
+.PNlXhK {
+    color: #ee4d2d
+}
+
+.PB3XKx {
+    border-bottom: 1px solid rgba(0,0,0,.09)
+}
+
+.PB3XKx,.Ze0Icc {
+    height: 10px
+}
+
+.Ze0Icc,.kG_yF0 {
+    border-bottom: 1px solid rgba(0,0,0,.09)
+}
+
+.vOQBhV {
+    border-bottom: 1px dotted rgba(0,0,0,.09);
+    height: 0;
+    position: relative;
+    width: 100%
+}
+
+.ngSTcE {
+    left: 0;
+    transform: translate(-50%,-50%)
+}
+
+.tJeibe {
+    right: 0;
+    transform: translate(50%,-50%)
+}
+
+.SEVp9k {
+    background: #f5f5f5;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: .4375rem;
+    position: absolute;
+    top: 0;
+    width: .4375rem;
+    z-index: 1
+}
+
+.LwXnUQ {
+    background: #fff;
+    padding: 24px 24px 12px
+}
+
+.NWUSQP {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end
+}
+
+.juCcT0 {
+    color: rgba(0,0,0,.8);
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 10px 0 0
+}
+
+.t7TQaf {
+    color: #ee4d2d;
+    font-size: 24px;
+    line-height: 30px
+}
+
+.yyqgYp {
+    align-content: center;
+    background: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 12px 24px 24px
+}
+
+.iwUeSD {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 4px;
+    justify-content: center;
+    max-width: 400px;
+    min-width: 300px;
+    word-wrap: break-word;
+    color: rgba(0,0,0,.54);
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left
+}
+
+.CDsaN0 .shopee-drawer {
+    display: inline-flex
+}
+
+.shopee-drawer {
+    display: flex;
+    outline: 0;
+    overflow: visible;
+    position: relative
+}
+
+.GQOPby {
+    cursor: pointer;
+    position: relative;
+    user-select: none
+}
+
+.f423Cb {
+    color: #ee4d2d
+}
+
+.po9nwN {
+    display: flex
+}
+
+.QY7kZh:not(.stardust-button--primary) {
+    border: 1px solid rgba(0,0,0,.09);
+    color: #555
+}
+
+.QY7kZh {
+    border-radius: 2px;
+    min-height: 40px;
+    min-width: 150px;
+    outline: 0;
+    overflow: hidden;
+    padding: 8px 20px;
+    text-overflow: ellipsis;
+    text-transform: capitalize
+}
+
+.aAXjeK,.hbQXWm {
+    align-items: center;
+    display: flex;
+    margin: 0 0 0 10px;
+    text-overflow: ellipsis
+}
+
+.B2SOGC>.stardust-button,.Mr26O7>.stardust-button {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 12px;
+    outline: 0;
+    padding: 4px 8px;
+    text-transform: capitalize
+}
+
+.stardust-button {
+    background-color: #fff!important;
+    border: 1px solid rgba(0,0,0,.26)!important;
+    border-radius: 4px;
+    color: rgba(0,0,0,.87)!important;
+    font-family: -apple-system,Helvetica Neue,Helvetica,Roboto,Droid Sans,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 10px
+}
+
+.stardust-button--primary {
+    background-color: #ee4d2d!important;
+    border-color: #cd3011!important;
+    color: #fff!important
+}
