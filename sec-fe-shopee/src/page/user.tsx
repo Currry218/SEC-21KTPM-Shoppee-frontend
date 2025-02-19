@@ -68,7 +68,7 @@ const DropdownItem = ({ title, imageSrc, links, setActiveComponent }: {
   );
 };
 
-export const ProfilePage = () => {
+export const UserPage = () => {
   const [activeComponent, setActiveComponent] = useState<React.ReactNode>(<VoucherWallet/>);
   return (
     <>

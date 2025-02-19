@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button, Form, Container, Row, Col, Card } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import { Footer } from "../components/footer";
 import "../css/loginPage.css";
 
@@ -8,6 +8,18 @@ export const LoginPage = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [showPopup, setShowPopup] = useState(false);
   const [isWithQR, setIsWithQR] = useState(false);
+  useEffect(() => {
+    // Dynamically import Bootstrap CSS only when LoginPage is mounted
+    const bootstrapLink = document.createElement("link");
+    bootstrapLink.rel = "stylesheet";
+    bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"; 
+    document.head.appendChild(bootstrapLink);
+
+    return () => {
+      // Remove Bootstrap CSS when the component unmounts
+      document.head.removeChild(bootstrapLink);
+    };
+  }, []);
   return (
     <Container fluid className="login-page vh-100 d-flex flex-column">
       {/* Header */}
